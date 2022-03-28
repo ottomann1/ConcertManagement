@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane prefHeight="400.0" prefWidth="559.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.databasefxx.CRUD.Create.CreateCon">
+   <children>
+      <TextField fx:id="conCreArtistName" layoutX="125.0" layoutY="68.0" prefHeight="25.0" prefWidth="306.0" promptText="Artist Name" />
+      <TextField fx:id="conCreDate" layoutX="125.0" layoutY="102.0" prefHeight="25.0" prefWidth="306.0" promptText="Concert Date (YYYY-MM-DDHHmm)" />
+      <TextField fx:id="conCreTicketPrice" layoutX="125.0" layoutY="136.0" prefHeight="25.0" prefWidth="306.0" promptText="Ticket Price" />
+      <Button layoutX="127.0" layoutY="270.0" mnemonicParsing="false" onAction="#conCreClick" prefHeight="86.0" prefWidth="306.0" text="Create" />
+      <ComboBox fx:id="conCreArena" layoutX="125.0" layoutY="168.0" prefHeight="25.0" prefWidth="306.0" promptText="Arena" />
+   </children>
+</AnchorPane>
